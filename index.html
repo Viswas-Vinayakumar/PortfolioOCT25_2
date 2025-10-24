@@ -820,6 +820,111 @@
                 display: none;
             }
         }
+
+/* Extra Responsive Enhancements */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 5%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .about-visual {
+        width: 280px;
+        height: 280px;
+        margin: 0 auto 30px;
+    }
+
+    .profile-pic {
+        width: 220px;
+        height: 220px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        margin-left: 0 !important;
+        padding: 25px;
+    }
+
+    .timeline-dot {
+        left: 15px !important;
+    }
+
+    .skills-grid, .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card, .skill-category, .experience-card {
+        padding: 25px;
+    }
+
+    .contact-container > p {
+        font-size: 17px;
+    }
+
+    .social-link {
+        width: 55px;
+        height: 55px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h2 {
+        font-size: 18px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .info-card, .experience-card, .project-card {
+        padding: 20px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 30px 5%;
+    }
+}
+
+
+
     </style>
 </head>
 <body>
